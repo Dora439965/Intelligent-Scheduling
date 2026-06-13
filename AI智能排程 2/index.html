@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- @AI_GENERATED -->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 智能排程软件</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- ===== 顶部全局控件栏 ===== -->
+    <header class="topbar" id="topbar"></header>
+
+    <!-- ===== 主体：任务列表 + 排程看板 ===== -->
+    <div class="main">
+      <!-- 左侧任务列表 -->
+      <aside class="tasklist" id="tasklist"></aside>
+      <!-- 中央排程看板 -->
+      <section class="board" id="board"></section>
+    </div>
+
+    <!-- ===== 注释栏 ===== -->
+    <footer class="legend" id="legend"></footer>
+  </div>
+
+  <!-- 悬浮详情 -->
+  <div class="tooltip" id="tooltip"></div>
+  <!-- 提示 -->
+  <div class="toast" id="toast"></div>
+  <!-- 弹窗容器 -->
+  <div class="overlay" id="overlay"></div>
+  <!-- 智能排程 FAB -->
+  <button class="fab" id="fab" title="智能排程">✦</button>
+
+  <script src="js/data.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/topbar.js"></script>
+  <script src="js/tasklist.js"></script>
+  <script src="js/deviceBoard.js"></script>
+  <script src="js/personBoard.js"></script>
+  <script src="js/modals.js"></script>
+  <script src="js/legend.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+<!-- @AI_GENERATED: end -->
